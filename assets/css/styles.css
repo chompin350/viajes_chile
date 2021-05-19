@@ -3,10 +3,14 @@ body * {
     border:0px;
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu';
 }
 /* MENU */
 .navbar{
     background-color: #24a1ac;
+    padding-right: 0;
+    padding-left: 0;
+
 }
 .navbar img{
     width: 40px;
@@ -14,22 +18,26 @@ body * {
 
 /* CARRUSEL */
 
-#carrusel img{
-    height: 40em;
-}
 
-
-#presentacion h1{
+#presentacion h1, #presentacion i{
     color: #ffffff;
 }
 
+#presentacion h1{
+    font-weight: 400;
+}
 
-#presentacion hr{
-    padding-left: 20px;
-    padding-right: 20px;
+
+#presentacion hr  {
+    padding-left: 40px;
+    padding-right: 40px;
     border: 1px solid #24a1ac;
 }
 
+#presentacion p{
+    color: #ffffff;
+    line-height:25px
+}
 .fondo_oscuro{
     background-color: #212121;
 }
@@ -37,14 +45,26 @@ body * {
     background-color: #24a1ac;
 }
 
-#descripcion_quienes_somos p{
+#destacados p, #destacados h1{
     color: #ffffff;
 }
 
-#descripcion_destacados img{
+#destacados img{
     height: 170px;
+}
+
+#destacados hr  {
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #24a1ac;
 }
 
 .car-body{
     background-color: #24a1ac;
 }
+
+.borde_blanco {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
