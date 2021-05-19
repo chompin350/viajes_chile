@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Inicio</a>
+                        <a class="nav-link" href="#carrusel">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#presentacion">Quienes Somos</a>
@@ -37,7 +37,7 @@
                         <a class="nav-link" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#fomulario">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -74,9 +74,8 @@
         
         <div class="d-none d-sm-block">
             <div class="row p-5">
-                <div class="col-12 text-center">
+                <div class="col-12 text-center borde_div">
                     <h1 class="pb-5">¿Quienes somos?</h1>
-                    <hr>
                 </div>
             </div>
             <div class="container">
@@ -108,49 +107,47 @@
 
     <section id="destacados" class="fondo_oscuro">
         <div class="container">
-            <div class="row pl-5 pr-5">
-                <div class="col-12 text-center">
-                    <h1 class="mt-5">Destacados</h1>
-                    <hr>
+            <div class="row p-5">
+                <div class="col-12 text-center borde_div">
+                    <h1 class="mb-5">Destacados</h1>
                 </div>
-
             </div>
-            <div class="row fondo_oscuro pt-4 pl-5 pr-5">
-                <div class="card-deck">
-                    <div class="col-12 col-sm-3">
-                        <div class="card border-0 borde_blanco">
+            <div class="row">
+                <div class="d-flex flex-wrap">
+                    <div class="col-12 col-sm-3 mb-2">
+                        <div class="card animation-toggle animated" data-animate="shake">
                             <img src="assets/img/card1.jpg" alt="">
-                            <div class="car-body">
+                            <div class="car-body p-3">
                                 <h4>Lorem ipsum dolor sit amet</h4>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. sed do eiusmod tempor incididunt ut labore et dolore manga aliqua.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-sm-3">
-                        <div class="card border-0 borde_blanco">
+                    <div class="col-12 col-sm-3 mb-2">
+                        <div class="card">
                             <img src="assets/img/card2.jpg" alt="">
-                            <div class="car-body">
+                            <div class="car-body p-3">
                                 <h4>Consectetur adipisicing elit</h4>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. sed do eiusmod tempor incididunt ut labore et dolore manga aliqua.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-sm-3">
-                        <div class="card border-0 borde_blanco">
+                    <div class="col-12 col-sm-3 mb-2">
+                        <div class="card">
                             <img src="assets/img/card3.jpg" alt="">
-                            <div class="car-body">
+                            <div class="car-body p-3">
                                 <h4>Sed doi eiusmod tempor incididunt ut labore</h4>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. sed do eiusmod tempor incididunt ut labore et dolore manga aliqua.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-sm-3">
-                        <div class="card border-0 borde_blanco">
+                    <div class="col-12 col-sm-3 mb-2">
+                        <div class="card">
                             <img src="assets/img/card4.jpg" alt="">
-                            <div class="car-body">
+                            <div class="car-body p-3">
                                 <h4>Ut enim ad minim venium</h4>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. sed do eiusmod tempor incididunt ut labore et dolore manga aliqua.</p>
                             </div>
@@ -161,14 +158,42 @@
 
             </div>
         </div>
+    </section>
 
-        <section id="footer">
-            
-
-        </section>
+    <section id="fomulario" class="fondo_oscuro">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-12 text-center borde_div">
+                    <h3 class="mb-3 text-white">Contacto</h3>
+                </div>
+            </div>
+            <div class="row pt-5 pb-5">
+                <div class="col-12 center">
+                    <div class="typeform-widget" data-url="https://form.typeform.com/to/SrpDmhPQ?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                </div>
+            </div>
+        </div>
 
     </section>
 
+    <section id="footer" class="fondo_iconos p-5">
+        <footer>
+            <div class="container text-white">
+                <div class="row">
+                    <div class="col-12 col-sm-6 text-center"><h2>VIAJES CHILE</h2></div>
+                    <div class="col-12 col-sm-6 text-center">
+                        <i class="fab fa-github-square fa-3x" data-toggle="tooltip" data-placement="top" title="Acceso a GitHub"></i>
+                        <i class="fab fa-linkedin fa-3x" data-toggle="tooltip" data-placement="right" title="Acceso a linkedin"></i>
+                        <i class="fab fa-twitter-square fa-3x" data-toggle="tooltip" data-placement="bottom" title="Acceso a Twitter"></i>
+                        <i class="fab fa-facebook-square fa-3x" data-toggle="tooltip" data-placement="left" title="Acceso a Facebook"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>        
+
+    </section>
+
+    
 
 
 

@@ -5,6 +5,7 @@ body * {
     padding: 0;
     font-family: 'Ubuntu';
 }
+
 /* MENU */
 .navbar{
     background-color: #24a1ac;
@@ -12,6 +13,7 @@ body * {
     padding-left: 0;
 
 }
+
 .navbar img{
     width: 40px;
 }
@@ -19,25 +21,28 @@ body * {
 /* CARRUSEL */
 
 
+/* PRESENTACION */
+/* CAMBIA COLOR DE LETRA H1 E COLOR ICONO */
 #presentacion h1, #presentacion i{
     color: #ffffff;
 }
 
+/* ANCHURA DE H1 */
 #presentacion h1{
     font-weight: 400;
 }
 
-
-#presentacion hr  {
-    padding-left: 40px;
-    padding-right: 40px;
-    border: 1px solid #24a1ac;
-}
-
+/* COLOR Y SEPARACION DE PARRAFO */
 #presentacion p{
     color: #ffffff;
     line-height:25px
 }
+
+/* BORDE INFERIOR DE DIV PARA SIMULAR LINEA */
+.borde_div{
+    border-bottom: 1px solid #24a1ac;
+}
+
 .fondo_oscuro{
     background-color: #212121;
 }
@@ -45,26 +50,29 @@ body * {
     background-color: #24a1ac;
 }
 
+/* SECCION DESTACADOS */
 #destacados p, #destacados h1{
     color: #ffffff;
 }
 
-#destacados img{
-    height: 170px;
+#destacados p{
+    margin-top: 10px;
 }
 
-#destacados hr  {
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid #24a1ac;
+#destacados img{
+    height: 170PX;
+}
+
+#destacados h4{
+    font-size: 19px;
 }
 
 .car-body{
     background-color: #24a1ac;
 }
 
-.borde_blanco {
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-}
+/* FOOTER */
 
+footer i{
+    margin-left: 10px;
+}
