@@ -1,0 +1,50 @@
+/* INICIO GENERAL */
+body * {
+    border:0px;
+    margin: 0;
+    padding: 0;
+}
+/* MENU */
+.navbar{
+    background-color: #24a1ac;
+}
+.navbar img{
+    width: 40px;
+}
+
+/* CARRUSEL */
+
+#carrusel img{
+    height: 40em;
+}
+
+
+#presentacion h1{
+    color: #ffffff;
+}
+
+
+#presentacion hr{
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #24a1ac;
+}
+
+.fondo_oscuro{
+    background-color: #212121;
+}
+.fondo_iconos{
+    background-color: #24a1ac;
+}
+
+#descripcion_quienes_somos p{
+    color: #ffffff;
+}
+
+#descripcion_destacados img{
+    height: 170px;
+}
+
+.car-body{
+    background-color: #24a1ac;
+}
