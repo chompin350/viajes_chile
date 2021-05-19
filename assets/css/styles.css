@@ -71,8 +71,21 @@ body * {
     background-color: #24a1ac;
 }
 
+.car-body p, .car-body h4{
+    color: #ffffff;
+}
+
+.card img:hover{
+    opacity: 0.5;
+}
+
 /* FOOTER */
 
 footer i{
     margin-left: 10px;
+}
+
+/* BORDE FALTANTE */
+.borde_blanco{
+    border: 1px solid #ffffff;
 }

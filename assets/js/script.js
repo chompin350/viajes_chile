@@ -19,12 +19,3 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
 
-
-$('.animation-toggle').hover(function() {
-    var anim = $(this).attr('data-animate');
-    $(this).addClass('animated');
-    $(this).addClass(anim);
-    setTimeout(function() {
-        $('.animation-toggle').removeClass(anim);
-    }, 3000);
-});
